@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Statics</h2>
+<br />
+<div class="row">
+    <div class="col-lg-3 col-6">
+        <div class="small-box" style="background-color:#F2CD5D">
+            <div class="inner">
+                <h3>@ViewBag.categoryCounter</h3>
+                <p>Kategori Sayısı</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6">
+        <div class="small-box" style="background-color:#326885">
+            <div class="inner">
+                <h3>@ViewBag.softwareCounter</h3>
+                <p>Yazılım Kategorisine Ait Başlık Sayısı</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6">
+        <div class="small-box" style="background-color:#e17055">
+            <div class="inner">
+                <h3>@ViewBag.writerCounter</h3>
+                <p>Yazar Adında 'A' Harfi Geçenlerin Sayısı</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6">
+        <div class="small-box" style="background-color:#00b894">
+            <div class="inner">
+                <h3>@ViewBag.maxHeadingCateName</h3>
+                <p>En Fazla Başlığa Sahip Kategori Adı</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6">
+        <div class="small-box" style="background-color:#B53471">
+            <div class="inner">
+                <h3>@ViewBag.diffCategoryTF</h3>
+                <p>Kategori'de True ile False Farkı</p>
+            </div>
+        </div>
+    </div>
+</div>
